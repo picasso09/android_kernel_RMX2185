@@ -2,7 +2,6 @@
 
 # set environment variables
 git clone --depth=1 https://github.com/picasso09/proton-clang clang
-export LOCALVERSION="-DiscussionVerse-KSU"
 export KBUILD_BUILD_HOST="picasso09"
 export KBUILD_BUILD_USER="picasso"
 export PATH="$(pwd)/clang/bin:$PATH"
