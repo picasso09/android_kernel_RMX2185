@@ -1922,7 +1922,7 @@ static bool oplus_chg_get_vbus_status(struct oplus_chg_chip *chip)
 		return false;
 }
 
-enum charger_type mt_get_charger_type()
+enum charger_type mt_get_charger_type(void)
 {
 	return g_oplus_chip->charger_type;
 }

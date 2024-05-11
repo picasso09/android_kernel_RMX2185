@@ -636,7 +636,7 @@ static int get_status(void)
 #endif
 }
 
-static int get_log_swich()
+static int get_log_swich(void)
 {
     return  (BLACK_STATUS_CHECK_ENABLE == get_status()||BLACK_STATUS_CHECK_DEBUG == get_status())&& g_black_data.get_log;
 }

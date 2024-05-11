@@ -4,7 +4,7 @@
 #git clone --depth=1 https://github.com/picasso09/proton-clang clang
 export KBUILD_BUILD_HOST="DV-WORK"
 export KBUILD_BUILD_USER="picasso09"
-export PATH="$(pwd)/clang/bin:$PATH"
+export PATH="$(pwd)/clang18/bin:$PATH"
 
 # build kernel
 make -j$(nproc --all) O=out ARCH=arm64 oppo6765_defconfig
