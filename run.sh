@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set environment variables
-#git clone --depth=1 https://github.com/picasso09/proton-clang clang
+git clone --depth=1 https://github.com/picasso09/proton-clang clang
 export KBUILD_BUILD_HOST="DV-WORK"
 export KBUILD_BUILD_USER="picasso09"
 export PATH="$(pwd)/clang/bin:$PATH"
