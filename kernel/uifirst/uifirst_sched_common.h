@@ -54,7 +54,7 @@ extern void find_ux_task_cpu(struct task_struct *tsk, int *target_cpu);
 extern int set_ux_task_cpu_common(struct task_struct *task, int prev_cpu, int *target_cpu);
 static inline void find_slide_boost_task_cpu(struct task_struct *tsk, int *target_cpu) {}
 
-static inline is_animator_ux_task(struct task_struct *task)
+static inline bool is_animator_ux_task(struct task_struct *task)
 {
 	return task->static_ux == 1;
 }
