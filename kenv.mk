@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-2.0
+⁹# SPDX-License-Identifier: GPL-2.0
 # Copyright (C) 2019 MediaTek Inc.
 
 KERNEL_ENV_PATH := $(call my-dir)

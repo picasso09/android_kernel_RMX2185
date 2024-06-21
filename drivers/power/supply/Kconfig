@@ -716,7 +716,7 @@ config BATTERY_MT6359
 	tristate "MT6359 fuel gauge support"
 	depends on MFD_MT6397
 	depends on NET
-	default m
+	default n
 	help
 	  Say Y to enable support for MT6359 battery driver.
 	  it measure battery current and temperature to provide
