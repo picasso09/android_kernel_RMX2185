@@ -7,8 +7,8 @@ export KBUILD_BUILD_USER="picasso09"
 export PATH="$(pwd)/clang/bin:$PATH"
 
 # build kernel
-#make -j$(nproc --all) O=out ARCH=arm64 oppo6765_defconfig
-make -j1 ARCH=arm64 O=out \
+make -j$(nproc --all) O=out ARCH=arm64 oppo6765_defconfig
+make -j$(nproc --all) ARCH=arm64 O=out \
                       HOSTCC="ccache clang" \
                       HOSTCXX="ccache clang++" \
                       CC="ccache clang" \
